@@ -1,3 +1,24 @@
+/*DESAFÍO 1 - CONCEPTOS GENERALES: SINTAXIS Y VARIABLES
+
+let nombre = prompt("Ingresá tu nombre");
+let apellido = prompt("Ingresá tu apellido");
+let edad = parseInt(prompt("Ingresá tu edad"));
+let lugar = prompt("¿De dónde sos?");
+
+mensaje = `Tu nombre es ${nombre} ${apellido}, tenés ${edad} años y sos de ${lugar}. ¿Viste cómo adiviné?`;
+alert(mensaje); */
+
+/* let numero = prompt("Ingrese un número");
+
+if (numero % 2 == 0) {
+    alert("El número que ingresaste es par")
+}   else {
+    alert("El número es impar");
+} */
+
+
+/* DESAFÍO 2 - CONTROL DE FLUJOS*/
+
 let marcaDeAuto = prompt("Ingrese una marca de fabricante de automóviles: ");
 
 marcaDeAuto = marcaDeAuto.toLowerCase();
@@ -44,20 +65,4 @@ if (marcaDeAuto == "fiat" || marcaDeAuto == "alfa romeo" || marcaDeAuto == "ferr
 
 } else { 
     alert("Esa marca de autos no está en nuestra base de datos");
-} 
-
-/* let nombre = prompt("Ingresá tu nombre");
-let apellido = prompt("Ingresá tu apellido");
-let edad = parseInt(prompt("Ingresá tu edad"));
-let lugar = prompt("¿De dónde sos?");
-
-mensaje = `Tu nombre es ${nombre} ${apellido}, tenés ${edad} años y sos de ${lugar}. ¿Viste cómo adiviné?`;
-alert(mensaje); */
-
-/* let numero = prompt("Ingrese un número");
-
-if (numero % 2 == 0) {
-    alert("El número que ingresaste es par")
-}   else {
-    alert("El número es impar");
-} */
+}
