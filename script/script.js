@@ -8,16 +8,21 @@ let lugar = prompt("¿De dónde sos?");
 mensaje = `Tu nombre es ${nombre} ${apellido}, tenés ${edad} años y sos de ${lugar}. ¿Viste cómo adiviné?`;
 alert(mensaje); */
 
-/* let numero = prompt("Ingrese un número");
 
-if (numero % 2 == 0) {
+/* DESAFÍO 2 - CONTROL DE FLUJOS*/
+
+alert("Primer IF: Numero par o impar")
+
+let numero1 = prompt("Ingrese un número entero");
+
+if (numero1 % 2 == 0) {
     alert("El número que ingresaste es par")
 }   else {
     alert("El número es impar");
-} */
+}
 
+alert("Segundo IF: País de fabricación de la marca de automóviles escogida")
 
-/* DESAFÍO 2 - CONTROL DE FLUJOS*/
 
 let marcaDeAuto = prompt("Ingrese una marca de fabricante de automóviles: ");
 
@@ -65,4 +70,21 @@ if (marcaDeAuto == "fiat" || marcaDeAuto == "alfa romeo" || marcaDeAuto == "ferr
 
 } else { 
     alert("Esa marca de autos no está en nuestra base de datos");
+}
+
+
+alert("Tercer IF: Reconocimiento de cantidad de cifras en un número");
+
+let numero2 = prompt("Ingrese un número entero");
+
+if (numero2 >= 0 &&  numero2 <= 9 ){
+        alert("El número es de UNA cifra");
+}   else if (numero2 >= 10 && numero2 <= 99) {
+        alert("El número es de DOS cifras");
+}   else if (numero2 >= 100 && numero2 <= 999) {
+        alert ("El número es de TRES cifras");
+}   else if (numero2 >= 1000 && numero2 <= 9999) {
+        alert ("El número es de CUATRO cifras");
+}   else {
+        alert ("El número es de cinco cifras o más, pero ya me cansé de escribir.");
 }
