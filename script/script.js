@@ -69,7 +69,7 @@ if (marcaDeAuto == "fiat" || marcaDeAuto == "alfa romeo" || marcaDeAuto == "ferr
     alert ("Este auto es de fabricación sueca");
 
 } else { 
-    alert("Esa marca de autos no está en nuestra base de datos");
+    alert("Esa marca de autos es incorrecta o no se encuentra en nuestra base de datos");
 }
 
 
