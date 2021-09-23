@@ -1,15 +1,16 @@
-/*DESAFÍO 1 - CONCEPTOS GENERALES: SINTAXIS Y VARIABLES
+// DESAFÍO 1 - CONCEPTOS GENERALES: SINTAXIS Y VARIABLES
 
-let nombre = prompt("Ingresá tu nombre");
+/*let nombre = prompt("Ingresá tu nombre");
 let apellido = prompt("Ingresá tu apellido");
 let edad = parseInt(prompt("Ingresá tu edad"));
 let lugar = prompt("¿De dónde sos?");
 
 mensaje = `Tu nombre es ${nombre} ${apellido}, tenés ${edad} años y sos de ${lugar}. ¿Viste cómo adiviné?`;
-alert(mensaje); */
+alert(mensaje);*/
 
+// DESAFÍO 2 - CONTROL DE FLUJOS
 
-/* DESAFÍO 2 - CONTROL DE FLUJOS*/
+/***********************************
 
 alert("Primer IF: Numero par o impar")
 
@@ -88,3 +89,91 @@ if (numero2 >= 0 &&  numero2 <= 9 ){
 }   else {
         alert ("El número es de cinco cifras o más, pero ya me cansé de escribir.");
 }
+********************************************************************/
+
+// DESAFÍO 3 - CICLOS E ITERACIONES
+
+/*  let i = 0;
+let j = 0; */
+
+//for (let i = 1; i <= 10; i++) {
+    //for (j = 0; j <= 5; j++); {
+        //alert("*");
+        
+    //}
+//} 
+
+
+
+
+
+//letra = prompt("Ingrese una letra:");
+
+/* while(letra == isNaN) {
+
+    if (letra == "a" || letra == "á" || letra == "A"){
+        alert("La letra es la primera vocal")
+
+    } else if (letra == "e" || letra == "é" || letra == "E"){
+        alert("La letra es la segunda vocal")
+
+    } else if (letra == "i" || letra == "í" || letra == "I"){
+        alert("La letra es la tercera vocal")
+
+    } else if (letra == "o" || letra == "ó" || letra == "O"){
+        alert("La letra es la cuarta vocal")
+
+    } else if (letra == "u" || letra == "ú" || letra == "U"){
+        alert("La letra es la quinta vocal")
+
+    } else if (letra == "Á" || letra == "É" || letra == "Í" || letra == "Ó" || letra == "Ú"){
+        alert("La letra es una vocal, pero las mayúsculas no llevan tilde")
+
+    } else {
+        alert("La letra es una consonante")
+    }
+} */
+
+/*num = prompt("Ingrese un número")
+
+while(num > 0) {
+
+    if (num % 2 == 0){
+        num = num*5
+        mensaje = `El número es ${num}`
+        console.log(mensaje)
+    } else if (num % 2 != 0) {
+        num = num/5
+    }
+
+    
+    num = prompt("Ingrese otro número (Ingrese 'E' para salir)")
+    
+    if (num == "e"){
+        msj = `Nos vemos!`
+        alert(msj)
+    }
+}*/
+
+/*while(num % 2 != 0) {
+    num = num*4
+    mensaje = `El número es ${num}`
+    console.log(mensaje)
+    num = prompt("Ingrese otro número (Ingrese 'E' para salir)")
+    
+    if (num == "e"){
+        msj = `Nos vemos!`
+        alert(msj)
+    }
+}*/
+
+let numero = parseInt(prompt('Ingrese un número'));
+
+let sumaTotal = 0;
+
+for (let i = numero; i <= 10; i++){
+    sumaTotal = sumaTotal + 1;
+    alert(sumaTotal);
+}
+
+// LOS OTROS BUCLES ME QUEDAN MUY INCOMPLETOS PORQUE AÚN NO IMPLEMENTO DOM, EN LA PRÓXIMA ENTREGA ARRANCO CON ESO
