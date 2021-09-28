@@ -167,13 +167,107 @@ while(num > 0) {
     }
 }*/
 
-let numero = parseInt(prompt('Ingrese un número'));
+/*let numero = parseInt(prompt('Ingrese un número'));
 
 let sumaTotal = 0;
 
 for (let i = numero; i <= 10; i++){
     sumaTotal = sumaTotal + 1;
     alert(sumaTotal);
-}
+}*/
 
 // LOS OTROS BUCLES ME QUEDAN MUY INCOMPLETOS PORQUE AÚN NO IMPLEMENTO DOM, EN LA PRÓXIMA ENTREGA ARRANCO CON ESO
+
+/* let nombre = prompt("Ingrese su nombre: ");
+alert(`Hola, ${nombre}!`);
+
+let apellido = prompt("Ingrese su apellido: ");
+let horasTrabajadas = parseInt(prompt("Ingrese las horas trabajadas"));
+let costoPorHora = parseInt(prompt("Ingrese el costo por hora: "));
+
+let paga = costoPorHora*horasTrabajadas;
+
+alert(`Hola, ${nombre} ${apellido}. Te corresponden ${paga} pesos por tu trabajo. ¡Que tengas un buen día!`) */
+
+
+//3) Pedir un monto total y un porcentaje y devolver el valor que representa a ese porcentaje. El valor devuelto tiene que tener dos decimales.
+/* montoTotal = parseFloat(prompt("Ingrese el monto total"));
+porcentaje = parseFloat(prompt("Ingrese un porcentaje"));
+
+valorTotal = parseFloat((montoTotal*porcentaje)/100);
+
+alert(`El precio total es $${valorTotal} pesos`); */
+
+/* func (monto, porcentaje);{
+    valorTotal = ((monto*porcentaje)/100);
+
+
+    return valorTotal;
+}
+
+alert: func(21, 31); */
+
+//4) Pedir un monto total y un valor y devolver el porcentaje que representa ese valor.
+/*montoTotal = parseFloat(prompt("Ingrese el monto total"));
+porcentaje = parseFloat(prompt("Ingrese un porcentaje"));
+
+valorTotal = parseFloat((porcentaje/montoTotal)*100);
+
+document.write(`El precio total es $${valorTotal} pesos`);*/
+
+
+
+
+
+
+///DESAFÍO 4 = FUNCIONES:
+
+/*alert("Función 1: Calcular IVA")
+let precio = parseFloat(prompt("Ingrese el precio del producto: "))
+
+let preciofinal = calcularIva(precio)
+
+console.log(`El precio del producto es ${precio}. El precio con IVA es ${preciofinal}`)
+
+function calcularIva(precioProducto) {
+    let iva = (precioProducto*21)/100
+    precioMasIva = precioProducto + iva
+    return precioMasIva
+}*/
+
+//Función 2: Calcular año de nacimiento
+
+/*alert("Función 2: Calcular año de nacimiento")
+
+let edad = parseInt(prompt("Ingrese la edad"))
+
+
+let anioDeNacimiento = calcularAnio(edad)
+
+console.log(`El año de nacimiento es ${anioDeNacimiento}`)
+
+function calcularAnio(edadActual) {
+
+    anioActual = parseInt(prompt("Ingrese el año actual: "))
+    if (anioActual <= 2021 && anioActual >=1900){
+
+        anioNacimiento = anioActual - edadActual
+        return anioNacimiento
+
+    } else {
+
+        alert("Eres un gallina McFly!")
+
+    }
+    
+}*/
+
+let num = parseInt(prompt("Ingrese Número"))
+let i = 0
+
+for (i=0; i==num; i++){
+    console.log(i);
+}
+
+
+
