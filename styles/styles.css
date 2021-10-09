@@ -7,3 +7,44 @@ body {
     background-color: black;
     font: white;
 }
+
+.botonera {
+    border: solid 1px white;
+}
+
+.botonera li{
+    list-style-type: none;
+}
+
+.botonera li a{
+    text-decoration: none;
+}
+
+.botonera li a p{
+    color:white;
+}
+
+.hoverUnderline {
+    display: inline-block;
+    position: relative; 
+}
+  
+  .hoverUnderline:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1vh;
+    bottom: 0.9vh;
+    left: 0;
+    background-color: rgb(229, 255, 0);
+    transform-origin: bottom initial;
+    transition: transform 0.25s ease-out;
+    opacity: 50%; 
+}
+  
+  .hoverUnderline:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom end; 
+}
+
