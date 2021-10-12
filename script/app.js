@@ -3,8 +3,16 @@
 /////////////////////////////
 
 //1) Pedir nombre al usuario y saludarlo por pantalla con el nombre que haya escrito. Ejemplo: si el nombre es Pablo devuelve "¡Hola, Pablo!"
-let userName = prompt("Insert your name")
-alert(`Hello, ${userName}`)
+let userName = "user"
+console.log(`Hello, ${userName}`)
+
+for (i=0;i<10;i++){
+    console.log("*")
+    console.log(" ")
+    for(j=(i+4);j<10;j++){
+        console.log("*")
+    }
+}
 
 
 //2) Pedir el nombre, el apellido, el número de horas trabajadas y el costo por hora. Debe devolver por consola un texto con su nombre completo y la paga correspondiente.
@@ -135,7 +143,31 @@ if (divisor != 0) {
 // 7 5 3 1
 // 9 7 5 3 1
 
+//SE CREA LA CONSTANTE CANTIDAD, A LA CUAL LE DAMOS EL VALOR.
+const cantidad = parseInt(10);
+
+//EL CICLO FOR VA A ITRERAR SIEMPRE Y CUANDO EL ÍNDICE SEA MENOR O IGUAL A "CANTIDAD"
+for (let i = 1; i <= cantidad; i++) {
+    //AL EMPEZAR, SE CREA LA VARIABLE LÍNEA, UN STRING VACÍO
+    let linea = "h";
+    //DENTRO DEL SEGUNDO CICLO, LA VARIABLE J VALE I POR DOS MENOS 1. ITERA UNA VEZ YA QUE LA CONDICIÓN DE CORTE ES QUE SEA MAYOR A CERO. Y SIEMPRE VA A RESTAR.
+    for (let j = ((i * 2) - 1); j > 0; j--) {
+        
+        //CORROBORA QUE J NO SEA NÚMERO PAR
+        //if (j = 0) {
+            //SI ES NÚMERO PAR, NO ITERA
+            //continue;
+        //}
+        //A LA VARIABLE LÍNEA, ANTES VACÍA, SE LE SUMA UN ESPACIO Y LA VARIABLE J ((Ix2)-1) 
+        linea += " " + j;
+    }
+    //IMPRIME LA VARIABLE LÍNEA
+    console.log(linea);
+}
+
 // 7) Dados 10 números de entre 1 y 100, pedidos mediante prompt indicar cuál es el número más grande y cuál es el número más chico ingresado.
+
+
 
 ////////////////////////////////////////
 // EJERCICIOS Y PROBLEMAS DE FUNCIONES//
