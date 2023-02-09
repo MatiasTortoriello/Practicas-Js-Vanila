@@ -126,8 +126,6 @@ Me devuelve siempre un string
 ****************************************************************************
 ****************************************************************************
 
-¿Que es el hosting? Tarea para casa 
-¿Que es el scope? Tarea para casa 
-
 pseudocodigo -> parsear (si no hay errores) -> ast -> bytecode -> optimiza -> machinecode
 */
+
