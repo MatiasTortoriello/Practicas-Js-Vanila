@@ -129,3 +129,25 @@ Me devuelve siempre un string
 pseudocodigo -> parsear (si no hay errores) -> ast -> bytecode -> optimiza -> machinecode
 */
 
+function Parte1Ejercicio1(){
+    var nombre = prompt("Ingrese su nombre: ")
+    alert(`¡Hola, ${nombre}`)
+    
+}
+
+function Parte1Ejercicio2(){
+    var nombre = prompt("Ingrese su nombre: ")
+    var apellido = prompt("Ingrese su apellido: ")
+    var horasTrabajadas = prompt("Ingrese la cantidad de horas trabajadas: ")
+    var costoPorHora = prompt("Ingrese el costo por hora: ")
+    alert(
+        `Hola ${nombre} ${apellido}. Su paga es de ${horasTrabajadas*costoPorHora}`
+    )
+}
+
+function Parte1Ejercicio3(){
+    var montoTotal = prompt("Ingrese el monto total: ")
+    var porcentaje = prompt("Ingrese el porcentaje: ")
+    var monto = (montoTotal * porcentaje) / 100
+    alert(`El ${porcentaje}% de $${montoTotal} es $${monto.toFixed(2)}`)
+}
