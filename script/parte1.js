@@ -132,7 +132,6 @@ pseudocodigo -> parsear (si no hay errores) -> ast -> bytecode -> optimiza -> ma
 function Parte1Ejercicio1(){
     var nombre = prompt("Ingrese su nombre: ")
     alert(`¡Hola, ${nombre}`)
-    
 }
 
 function Parte1Ejercicio2(){
@@ -150,4 +149,48 @@ function Parte1Ejercicio3(){
     var porcentaje = prompt("Ingrese el porcentaje: ")
     var monto = (montoTotal * porcentaje) / 100
     alert(`El ${porcentaje}% de $${montoTotal} es $${monto.toFixed(2)}`)
+}
+
+function Parte1Ejercicio4(){
+
+}
+
+function Parte1Ejercicio5(){
+    
+}
+
+function Parte1Ejercicio6(){
+    
+}
+
+function Parte1Ejercicio7(){
+    
+}
+
+function Parte1Ejercicio8(){
+    
+}
+
+function Parte1Ejercicio9(){
+    
+}
+
+function Parte1Ejercicio10(){
+    
+}
+
+function Parte1Ejercicio11(){
+    
+}
+
+function Parte1Ejercicio12(){
+    
+}
+
+function Parte1Ejercicio13(){
+    
+}
+
+function Parte1Ejercicio14(){
+    
 }
