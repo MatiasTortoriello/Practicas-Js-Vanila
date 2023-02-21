@@ -152,7 +152,11 @@ function Parte1Ejercicio3(){
 }
 
 function Parte1Ejercicio4(){
-
+    var montoTotal = prompt("Ingrese el monto total: ")
+    var valor = prompt("Ingrese un valor: ")
+    var porcentaje = (montoTotal*100)/valor
+    alert(`${valor} es el ${porcentajetoFixed(2)}% de ${montoTotal} `)
+    
 }
 
 function Parte1Ejercicio5(){
